@@ -1,0 +1,44 @@
+@font-face {
+	font-family: QuintalScript;
+	src: url(Fonts/QuintalScriptPERSONALUSEONLY-Regular.otf);
+}
+
+body {
+	background: linear-gradient(-45deg, #986b9b, #277a9e, #52A885, #f5a937, #ed8c34, #d04f4f);
+	background-size: 300% 300%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1 {
+	color: #fff2d6;
+	font-family: QuintalScript, sans-serif;
+	font-size: 5em;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+p {
+	color: #fff2d6;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.5em;
+}
+
+#content {
+	margin: auto;
+	width: 50%;
+	padding-top: 10%;
+}
