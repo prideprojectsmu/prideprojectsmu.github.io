@@ -1,0 +1,159 @@
+@font-face {
+	font-family: QuintalScript;
+	src: url(Fonts/QuintalScriptPERSONALUSEONLY-Regular.otf);
+}
+
+body {
+	margin: 0 !important;
+	font-family: sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.row {
+	width: 100%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 450px) {
+	.nomobile {
+		display: none !important;
+	}
+	.col-8 {
+		width: 100%;
+	}
+}
+
+.sketch {
+	background-color: #fff2d6;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#canvas {
+	position: absolute;
+}
+
+.main {
+	/*border: 1px solid blue;*/
+	padding: 10px;
+	overflow: scroll !important;
+	height: 100vh;
+	background-color: #e26565;
+	color: #fff2d6;
+	font-family: sans-serif;
+}
+
+.main h1 {
+	color: #fff2d6;
+	font-family: QuintalScript, sans-serif;
+	font-size: 3.5em;
+	letter-spacing: 5px;
+	margin-bottom: 0;
+}
+
+.main h3 {
+	margin-top: 0;
+	margin-bottom: 10%;
+}
+
+.main p {
+	text-align: left;
+}
+
+.nav {
+	width: 10%;
+	padding-left: 5px;
+	position: absolute;
+}
+
+.nav hr {
+	height: 3px;
+	width: 20%;
+	margin-left: 0px;
+	margin-top: -15px;
+	background-color: #8dcae0;
+	stroke: none;
+}
+
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li a {
+	display: block;
+	border-left: 2px solid #8dcae0;
+	padding-left: 3px;
+	text-decoration: none;
+	color: black;
+	transition: 0.2s;
+}
+
+.nav li a:hover {
+	border-left: 5px solid #7b9c6d;
+}
+
+.mainTitle {
+	width: 100%;
+	/*border: 1px solid orange;*/
+	text-align: right;
+	padding-top: 20%;
+	padding-bottom: 40%;
+	padding-left: 15%;
+	padding-right: 10%;
+}
+
+.mainTimeline {
+	width: 100%;
+	/*border: 1px solid yellow;*/
+}
+
+.mainInterviews {
+	width: 100%;
+	/*border: 1px solid mediumpurple;*/
+}
+
+.mainArchives {
+	width: 100%;
+	/*border: 1px solid seagreen;*/
+}
+
+.buttonContainer {
+	text-align: right;
+	margin-top: 3em;
+}
+
+.viewMore {
+	border: none;
+	background-color: #fff2d6;
+	border-radius: 1em;
+	padding: 1em 2em;
+	text-decoration: none;
+	color: black;
+}
