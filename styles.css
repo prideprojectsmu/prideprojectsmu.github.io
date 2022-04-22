@@ -46,6 +46,9 @@ body {
 	.col-8 {
 		width: 100%;
 	}
+	.main h1 {
+		font-size: 2em;
+	}
 }
 
 .sketch {
