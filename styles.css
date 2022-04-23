@@ -50,9 +50,6 @@ body {
 	.col-8 {
 		width: 100%;
 	}
-	.main h1 {
-		font-size: 2em;
-	}
 }
 
 .sketch {
@@ -79,7 +76,7 @@ body {
 	color: #fff2d6;
 	font-family: QuintalScript, sans-serif;
 	font-size: 3.5em;
-	letter-spacing: 5px;
+	letter-spacing: .3em;
 	margin-bottom: 0;
 }
 
