@@ -40,6 +40,10 @@ body {
 .col-12 {width: 100%;}
 
 @media only screen and (max-width: 450px) {
+	  [class*="col-"] {
+    width: 100%;
+  }
+
 	.nomobile {
 		display: none !important;
 	}
@@ -159,4 +163,12 @@ body {
 	padding: 1em 2em;
 	text-decoration: none;
 	color: black;
+}
+
+.teamOne {
+	border: 2px solid orange;
+}
+
+.teamTwo {
+	border: 2px solid green;
 }
